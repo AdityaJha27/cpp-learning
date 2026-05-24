@@ -81,7 +81,7 @@ int main(){
     Calls constructor with 2 arguments
     */
 
-    complex c1(4,5);
+    complex c1(4,6);
 
     c1.printnumber();
 
