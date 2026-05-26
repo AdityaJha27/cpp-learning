@@ -134,39 +134,3 @@ int main(){
 
     return 0;
 }
-
-/*
-=========================================================
-IMPORTANT CONCEPTS USED
-=========================================================
-
-1. Default Constructor
-   Number()
-
-2. Parameterized Constructor
-   Number(int num)
-
-3. Copy Constructor
-   Number(Number &obj)
-
-4. Compiler Generated Copy Constructor
-   - If user does not create one,
-     compiler provides its own
-
-5. Copy Constructor Invocation
-   Example:
-   Number z1(x);
-
-6. Copy Assignment
-   Example:
-   z2 = z;
-
-   - Copy constructor NOT called
-   - Assignment operator used
-
-7. Object Initialization
-   Example:
-   Number z3 = z;
-
-=========================================================
-*/
